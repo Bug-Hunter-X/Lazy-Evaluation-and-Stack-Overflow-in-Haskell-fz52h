@@ -1,0 +1,2 @@
+# Lazy Evaluation and Stack Overflow in Haskell
+This example demonstrates a common error in Haskell where improper handling of lazy evaluation with infinite lists can lead to stack overflow. The `length` function attempts to evaluate the entire infinite list, resulting in a stack overflow. The solution shows how to avoid this using safe list manipulation techniques.
